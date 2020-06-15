@@ -1,0 +1,14 @@
+.box-header{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    background: rgb(0, 10, 63);
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-align: center;
+}
+.box-header a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}

@@ -36,7 +36,7 @@ export default function Detail() {
                     <input type='text' placeholder='Ex: São Paulo' onChange={(event) => setSearch(event.target.value)} />
                 </div>
                 {City.map(item => (
-                    <li >
+                    <li key={Math.random()} >
                         <strong>Cidade: {item.city} </strong>
                         <strong>Confirmados: {item.confirmed} </strong>
                         <strong>Data: {item.date} </strong>

@@ -1,0 +1,9 @@
+.container-not-found{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container-not-found img{
+    max-width: 200px;
+    max-height: 200px;
+}

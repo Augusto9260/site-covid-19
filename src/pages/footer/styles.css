@@ -1,0 +1,24 @@
+.box-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: auto;
+    background: #000A3F;
+    padding: 10px;
+    margin-top: 10px;
+}
+.box-footer span{
+    color: #fff;
+    margin-right: 10px;
+}
+.box-footer a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: red;
+}
+.box-footer img{
+    max-width: 30px;
+    max-width: 30px;
+}

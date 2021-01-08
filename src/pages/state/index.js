@@ -18,7 +18,7 @@ export default function State() {
     if(loading){
         return(
             <div className='loading'>
-                <h1>Plase wait loading...</h1>
+                <h1>Please wait, loading...</h1>
                 <img src='https://image.flaticon.com/icons/svg/2718/2718069.svg' alt='Carregando' />
             </div>
         )

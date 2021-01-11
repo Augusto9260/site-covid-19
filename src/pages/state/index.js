@@ -11,7 +11,7 @@ export default function State() {
         async function load(){
             const response = await api.get(`?format=json&is_last=True&place_type=state`);
             setState(response.data.results);
-            setLoading(true);
+            setLoading(false);
         }
         load();
     }, []);
